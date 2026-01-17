@@ -1,0 +1,9 @@
+services:
+  langchain-agent:
+    build: .
+    container_name: langchain_agent
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./:/app
+    restart: unless-stopped
