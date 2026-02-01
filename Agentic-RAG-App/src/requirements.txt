@@ -1,0 +1,7 @@
+crewai==0.102.0
+crewai-tools==0.36.0
+python-dotenv==1.0.1
+langchain-community==0.3.17
+setuptools
+langchain-groq==0.2.5
+langchain-huggingface<0.1.0

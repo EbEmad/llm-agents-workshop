@@ -39,5 +39,5 @@ def main():
     end_time = time.time()
     print(f"Time taken: {end_time - start_time} seconds.")
     print(result)
-if __name__='__main__':
+if __name__=="__main__":
     main()

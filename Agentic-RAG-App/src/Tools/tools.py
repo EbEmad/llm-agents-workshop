@@ -1,7 +1,7 @@
 from crewai_tools import PDFSearchTool
 from crewai.tools import tool
 from langchain_community.tools.tavily_search import TavilySearchResults
-from ..config import GROQ_API_KEY
+from config import GROQ_API_KEY
 
 
 def create_pdf_tool(pdf_path):
@@ -27,7 +27,7 @@ def create_pdf_tool(pdf_path):
                     # max_tokens=2048,
                 ),
             ),
-            enbedder=dict(
+            embedder=dict(
                 provider="huggingface",
                 config=dict(
                     model="BAAI/bge-small-en-v1.5",

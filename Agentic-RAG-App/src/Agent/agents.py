@@ -1,6 +1,6 @@
 from crewai import Agent 
 from crewai import LLM
-from ..config import OPEN_ROUTER_API_KEY
+from config import OPEN_ROUTER_API_KEY
 
 #llm = LLM(model="deepseek-r1:1.5b", base_url="http://localhost:11434")
 
